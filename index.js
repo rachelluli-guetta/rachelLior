@@ -6,6 +6,9 @@ const AWS = require('aws-sdk');
 const express = require('express');
 const app = express();
 
+//User is stored by:
+//key: Base64(username_password)
+//user data: {firstName: ..., lastName: ..., email: ..., phoneNo: ...}
 
 
 app.listen(3000, function() {
