@@ -7,8 +7,9 @@ const express = require('express');
 const app = express();
 
 const s3 = new AWS.S3();
-
-const bucketname =
+//User is stored by:
+//key: Base64(username_password)
+//user data: {firstName: ..., lastName: ..., email: ..., phoneNo: ...}
 
 app.listen(3000, function() {
     console.log('Listening on port 3000..');
