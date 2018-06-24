@@ -1,7 +1,7 @@
 language: generic
 dist: trusty
 before_script:
-  - echo "aaaaalan culam"
+  - echo "aaaalan culam"
 
 script: echo "alan alan"
 
