@@ -1,0 +1,16 @@
+language: generic
+dist: trusty
+before_script:
+  - echo "aaaalan culam"
+
+script: echo "alan alan"
+
+jobs:
+  include:
+    - stage: stage for all
+      script:
+      - echo -en "we are all here"
+    - stage: stage only for master
+      if: branch = master
+      script:
+      - echo -en "i am the master"
