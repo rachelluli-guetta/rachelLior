@@ -14,3 +14,4 @@ jobs:
       if: branch = master
       script:
       - echo -en "i am the master"
+      - git tag "v-${TRAVIS_COMMIT}"
