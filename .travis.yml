@@ -14,4 +14,4 @@ jobs:
     - stage: stage only for master
       if: branch = master
       script:
-      - echo -en "i am so stam"
+      - echo -en "i am the master"
