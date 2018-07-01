@@ -15,7 +15,7 @@ var jsonParser = bodyParser.json();
 //key: username
 //user data: {firstName: ..., lastName: ..., email: ..., phoneNo: ...}
 
-const bucketName = 'rachel-lior-users';
+const bucketNamesss = 'rachel-lior-users';
 const usersFolder = 'users/';
 
 const getAllUsersParams = {
