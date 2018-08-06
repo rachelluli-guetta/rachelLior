@@ -1,10 +1,6 @@
 language: generic
 dist: trusty
 
-before_install:
-  - export TAG="ziv"
-  - echo "ziv ziv ziv ziv"
-
 before_script:
   - echo "aaaalan culam"
 
@@ -13,6 +9,8 @@ script: echo "alan alan"
 jobs:
   include:
     - stage: stage for all
+      env:
+      - export TAG="ziv"
       script:
       - echo -en "we are all here"
       - echo "THIS IS THE TAG"
