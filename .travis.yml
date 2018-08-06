@@ -6,11 +6,14 @@ before_script:
 
 script: echo "alan alan"
 
+env:
+  - TAG="rachelina"
+
 jobs:
   include:
     - stage: stage for all
       env:
-      - export TAG="ziv"
+      - Stage for all
       script:
       - echo -en "we are all here"
       - echo "THIS IS THE TAG"
