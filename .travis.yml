@@ -15,7 +15,14 @@ jobs:
       env:
       - Stage for all
       script:
-      - echo -en "we are all here"
+      - echo -en "We are all here"
+      - echo "THIS IS THE TAG"
+      - echo $TAG
+    - stage: one more stage
+      env:
+      - One more stage
+      script:
+      - echo -en "This is one more stage"
       - echo "THIS IS THE TAG"
       - echo $TAG
     - stage: stage only for master
