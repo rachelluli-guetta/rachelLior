@@ -2,8 +2,8 @@ language: generic
 dist: trusty
 
 before_install:
-  -export TAG="ziv"
-  -echo "ziv ziv ziv ziv"
+  - export TAG="ziv"
+  - echo "ziv ziv ziv ziv"
 
 before_script:
   - echo "aaaalan culam"
