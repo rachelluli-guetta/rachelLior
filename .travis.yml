@@ -15,9 +15,6 @@ jobs:
       - echo -en "we are all here"
       - echo "THIS IS THE TAG"
       - echo $TAG
-    - stage: stage for all
-      script:
-      - echo -en "you know me"
     - stage: stage only for master
       if: branch = master
       script:
