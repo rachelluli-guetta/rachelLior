@@ -2,7 +2,6 @@ language: generic
 dist: trusty
 before_script:
   - echo "aaaalan culam"
-  - git config --global url."git@github.com:".insteadOf "https://github.com/"
 
 script: echo "alan alan"
 
@@ -11,6 +10,9 @@ jobs:
     - stage: stage for all
       script:
       - echo -en "we are all here"
+    - stage: stage for all
+      script:
+      - echo -en "you know me"
     - stage: stage only for master
       if: branch = master
       script:
